@@ -10,5 +10,5 @@ while(n!=0)
 n=n/10;
 ++count;
 }
-printf9"number of digits in integer%d",count);
+printf("number of digits in integer%d",count);
 }
