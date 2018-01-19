@@ -6,7 +6,7 @@ printf("enter the numbers');
 scanf("%d %d",&mi,&mi);
 for(i=mi;i<=ma;i++)
 {
-if(i%2=!2)
+if(i%2!=2)
 {
 printf("%d",i);
 }
