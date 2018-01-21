@@ -9,8 +9,10 @@ if(n<=0)
 fact=1;
 }
 else
-for(i=1;1<=n;i++)
+for(i=1;i<=n;i++)
 {
 fact=fact*i;
+  printf("%d",fact);
 }
+ return 0;
 }
