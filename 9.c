@@ -12,4 +12,6 @@ for(i=0;i<k;i++)
 {
 sum=sum+a[i];
 }
-printf("%d",sum
+printf("%d",sum);
+  return 0;
+}
