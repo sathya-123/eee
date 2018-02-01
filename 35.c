@@ -10,6 +10,6 @@ rem=a%10;
 count++;
 a=a/10;
 }
-printf("the value is %d",a);
+printf("the value is %d",count);
 return 0;
 }
