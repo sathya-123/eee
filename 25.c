@@ -19,7 +19,7 @@ printf("enter the elements");
       a[i]=a[j];
       a[j]=temp;
     }
-  }
+  }printf("%d"a[i]);
 }
   c=n/2;
   for(i=0;i<n;i+++)
