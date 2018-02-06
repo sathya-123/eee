@@ -1,12 +1,33 @@
 #include<stdio.h>
 int main()
 {
-int a,b[87];
+int i,j,a[8],temp,c,n;
 printf("enter the array value");
-scanf("%d",&a);
+scanf("%d",&n);
 printf("enter the elements");
-scanf("%d",&b);
-  
- 
-return 0;
+  for(i=0;i<n;i++)
+  {
+    scanf("%d",&a[i]);
+  }
+  for(i=0;i<n;i++)
+  {
+    for(j=i+1;j<n;j++)
+    {
+      if(a[i]>a[j])
+      {
+      temp=a[i];
+      a[i]=a[j];
+      a[j]=temp;
+    }
+  }
+}
+  c=n/2;
+  for(i=0;i<n;i+++)
+  {
+    if(a[i]==a[j])
+    {
+      printf("the meddle element is %d",a[j]);
+    }
+  }
+  return 0;
 }
