@@ -8,6 +8,6 @@ print("enter the elements");
 for(i=0;i<n;i++)
 {
 scanf("%d",&a[i]);
+printf("%d %d",a[i],i);
 }
-printf("%d %d",i,a[i]);
 }
