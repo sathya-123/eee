@@ -1,19 +1,19 @@
 #include<stdio.h>
 void main()
 {
-  int i,max,a[10];
+  int i,m,a[10];
   printf("enter the elements");
   for(i=0;i<10;i++)
   {
   scanf("%d",&a[i]);
   }
-  max=a[0];
+  m=a[0];
   for(i=0;i<10;i++)
   {
-    if(max<a[i])
+    if(m<a[i])
     {
-      max=a[i];
+      m=a[i];
     }
   }
-  printf("%d",max);
+  printf("%d",m);
 }
