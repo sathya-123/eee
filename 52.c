@@ -26,6 +26,8 @@ switch(n)
   break;
    case 10:printf("ten");
   break;
+  default:printf("invalid");
+    break;
   
 }
 return 0;
