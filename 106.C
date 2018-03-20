@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main() 
 {
-  int n;
+  int a;
   printf("enter the value\n");
-  scanf("%d",&n);
-  printf("%c",n+64);
+  scanf("%d",&a);
+  printf("%c",a+64);
   return 0;
 }
